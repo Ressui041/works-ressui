@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #fff;
+    line-height: 1.5;
+    color: #222;
+    font-family: "Noto Sans JP", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.center {
+    text-align: center;
+}
+
+/* HEADER */
+.logo {
+    width: 32px;
+    margin-top: 12px;
+    fill: #222;
+}.logo svg:hover {
+    fill: #73a1a7;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 40px;
+}
+.main-nav a {
+    color: #222;
+}
+.main-nav a:hover {
+    color: #73a1a7;
+}
+#page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.top {
+    text-align: center;
+}
