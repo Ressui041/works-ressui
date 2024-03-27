@@ -39,7 +39,7 @@ header {
     height: auto;
     fill: #f0eee9;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .logo svg:hover {
@@ -155,6 +155,7 @@ header {
 .top {
     text-align: center;
     margin-top: 94px;
+	display: block;
 }
 
 .top h1 {
@@ -166,6 +167,7 @@ header {
 }
 
 .top p {
+    margin: 0 auto;
     margin-top: 18px;
 }
 
@@ -178,12 +180,12 @@ header {
     margin-top: 40px;
     margin-bottom: 10px;
     margin-left: 5px;
-    font-size: 1.5em;
+    font-size: 1.35em;
 }
 
 .announce-box {
-    padding: 12px 20px;
-    border: 2px solid #73a1a7;
+    padding: 15px 20px;
+    box-shadow: 0 0 7px #00000030;
     border-radius: 20px;
 }
 
@@ -193,6 +195,45 @@ header {
 
 .announce-box_text {
     font-size: 1em;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 94px;
+	display: block;
+}
+
+.profile h1 {
+    font-size: 2em;
+}
+
+.profile h2 {
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+.profile p {
+    margin: 0 auto;
+    margin-top: 16px;
+    text-align: justify;
+	display: inline-block;
+}
+
+.profile-logo {
+    width: 130px;
+    height: 130px;
+    font-size:12px;
+    display:flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: #353535;
+}
+
+.profile-logo svg {
+    width:60px;
+    margin: 0 auto;
+    fill: #33bea7;
 }
 
 /*FOOTER*/
@@ -212,5 +253,6 @@ footer {
 
 .copyright {
     text-align: center;
+    font-size: 0.8em;
     margin-top: 20px;
 }
